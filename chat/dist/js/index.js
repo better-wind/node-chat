@@ -63,7 +63,7 @@ var ChatModule = {
     },
     socketConn: function socketConn(rs) {
         var self = this;
-        self.ws = new WebSocket("ws://localhost:8181");
+        self.ws = new WebSocket("ws://chat.fenghou.site:8181");
         self.ws.onopen = function (e) {
             console.log('Connection to server opened');
             var msg = rs;
