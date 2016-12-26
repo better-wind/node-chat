@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33452f84-3205-4c54-9053-1f6a2b552422" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat/chat.html" afterPath="$PROJECT_DIR$/chat/chat.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat/dev/style/index.scss" afterPath="$PROJECT_DIR$/chat/dev/style/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat/dist/css/index.css" afterPath="$PROJECT_DIR$/chat/dist/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat/dist/css/index.min.css" afterPath="$PROJECT_DIR$/chat/dist/css/index.min.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,7 +23,7 @@
     <favorites_list name="node-chat" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.404023">
+    <splitter split-orientation="horizontal" split-proportion="0.36724138">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="client.html" pinned="false" current-in-tab="false">
@@ -39,17 +36,17 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="chat.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="chat.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/chat/chat.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="297">
-                  <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="30" />
+                <state relative-caret-position="202">
+                  <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/server/server.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="297">
@@ -63,28 +60,28 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/chat/dev/style/index.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="945">
-                  <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+                <state relative-caret-position="324">
+                  <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                   <folding>
-                    <element signature="e#574#674#0" expanded="false" />
-                    <element signature="e#681#1530#0" expanded="false" />
-                    <element signature="e#780#807#0" expanded="false" />
-                    <element signature="e#817#1144#0" expanded="false" />
-                    <element signature="e#1072#1138#0" expanded="false" />
-                    <element signature="e#1543#2205#0" expanded="false" />
+                    <element signature="e#577#677#0" expanded="false" />
+                    <element signature="e#684#1533#0" expanded="false" />
+                    <element signature="e#783#810#0" expanded="false" />
+                    <element signature="e#820#1147#0" expanded="false" />
+                    <element signature="e#1075#1141#0" expanded="false" />
+                    <element signature="e#1546#2208#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/chat/gulpfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="513">
-                  <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+                <state relative-caret-position="459">
+                  <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
                   <folding>
                     <element signature="e#556#934#0" expanded="false" />
                     <element signature="e#963#1224#0" expanded="false" />
@@ -147,8 +144,8 @@
         <option value="$PROJECT_DIR$/chat/pc.html" />
         <option value="$PROJECT_DIR$/server/server.js" />
         <option value="$PROJECT_DIR$/chat/client.html" />
-        <option value="$PROJECT_DIR$/chat/chat.html" />
         <option value="$PROJECT_DIR$/chat/dev/js/chat.js" />
+        <option value="$PROJECT_DIR$/chat/chat.html" />
         <option value="$PROJECT_DIR$/chat/dev/style/index.scss" />
       </list>
     </option>
@@ -327,23 +324,23 @@
       <workItem from="1482461344862" duration="5528000" />
       <workItem from="1482471728722" duration="2908000" />
       <workItem from="1482474750668" duration="13152000" />
-      <workItem from="1482718812269" duration="4080000" />
+      <workItem from="1482718812269" duration="4283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25668000" />
+    <option name="totallyTimeSpent" value="25871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="32" width="1936" height="1176" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08324552" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29462573" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29462573" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -424,12 +421,12 @@
         <state relative-caret-position="1458">
           <caret line="75" column="25" lean-forward="false" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
           <folding>
-            <element signature="e#574#674#0" expanded="false" />
-            <element signature="e#681#1530#0" expanded="false" />
-            <element signature="e#780#807#0" expanded="false" />
-            <element signature="e#817#1144#0" expanded="false" />
-            <element signature="e#1072#1138#0" expanded="false" />
-            <element signature="e#1543#2205#0" expanded="false" />
+            <element signature="e#577#677#0" expanded="false" />
+            <element signature="e#684#1533#0" expanded="false" />
+            <element signature="e#783#810#0" expanded="false" />
+            <element signature="e#820#1147#0" expanded="false" />
+            <element signature="e#1075#1141#0" expanded="false" />
+            <element signature="e#1546#2208#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -500,12 +497,12 @@
         <state relative-caret-position="270">
           <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
-            <element signature="e#574#674#0" expanded="false" />
-            <element signature="e#681#1530#0" expanded="false" />
-            <element signature="e#780#807#0" expanded="false" />
-            <element signature="e#817#1144#0" expanded="false" />
-            <element signature="e#1072#1138#0" expanded="false" />
-            <element signature="e#1543#2205#0" expanded="false" />
+            <element signature="e#577#677#0" expanded="false" />
+            <element signature="e#684#1533#0" expanded="false" />
+            <element signature="e#783#810#0" expanded="false" />
+            <element signature="e#820#1147#0" expanded="false" />
+            <element signature="e#1075#1141#0" expanded="false" />
+            <element signature="e#1546#2208#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -583,37 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat/client.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat/chat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chat/dev/style/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding>
-            <element signature="e#574#674#0" expanded="false" />
-            <element signature="e#681#1530#0" expanded="false" />
-            <element signature="e#780#807#0" expanded="false" />
-            <element signature="e#817#1144#0" expanded="false" />
-            <element signature="e#1072#1138#0" expanded="false" />
-            <element signature="e#1543#2205#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chat/dev/js/chat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -640,13 +606,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chat/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="39" column="28" lean-forward="false" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        <state relative-caret-position="459">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
             <element signature="e#556#934#0" expanded="false" />
             <element signature="e#963#1224#0" expanded="false" />
             <element signature="e#1254#1333#0" expanded="false" />
             <element signature="e#1376#1408#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/dev/style/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#577#677#0" expanded="false" />
+            <element signature="e#684#1533#0" expanded="false" />
+            <element signature="e#783#810#0" expanded="false" />
+            <element signature="e#820#1147#0" expanded="false" />
+            <element signature="e#1075#1141#0" expanded="false" />
+            <element signature="e#1546#2208#0" expanded="false" />
           </folding>
         </state>
       </provider>
