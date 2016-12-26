@@ -1,0 +1,121 @@
+@import "reset";
+body{
+  background-color: #ccff99;
+}
+
+.chat{
+  position: relative;
+  width: 7.5rem;
+  max-width: 750px;
+  margin:0 auto;
+  background-color: rgb(255,255,255);
+  overflow: hidden;
+}
+.login{
+  //display: none;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 9;
+  width: 7.5rem;
+  height: 100%;
+  background-color: rgb(0,0,0);
+  .send-view{
+    position: relative;
+    top:50%;
+    margin:-30px auto 0;
+  }
+
+}
+.view{
+  width: 7.5rem;
+  max-width: 750px;
+}
+.msg-view{
+  background-color: rgb(255,255,255);
+  .system{
+    padding: 15px 0;
+    color: rgb(180,180,180);
+    text-align: center;
+    font-size: 12px;
+  }
+  .msg{
+    width: 7.2rem;
+    max-width: 720px;
+    margin:15px auto 0;
+    overflow: hidden;
+    .right{
+      float: right;
+    }
+    .text{
+      float: left;
+      width: 4rem;
+      max-width: 400px;
+      padding: 10px;
+      border-radius: 2px;
+      background-color: rgb(255,255,255);
+      font-size: 12px;
+      border:1px solid rgb(220,220,220);
+      margin-left: 10px;
+      &.right{
+        float: right;
+        background-color: #339933;
+      }
+    }
+    .ico{
+      float:left;
+      .img{
+        width: 1rem;
+        height: 1rem;
+        max-width: 100px;
+        max-height: 100px;
+        background-color: rgb(0,0,0);
+      }
+      .nick{
+        width: 1rem;
+        max-width: 100px;
+        text-align: center;
+        font-size: 12px;
+      }
+      &.right{
+        float: right;
+        margin-left: 10px;
+      }
+    }
+
+  }
+}
+.send-view{
+  position: absolute;
+  left:0;
+  bottom:0;
+  background-color: rgb(240,240,240);
+  padding: 7px 0;
+  .input-view{
+    margin:0 auto;
+    width: 7.2rem;
+    max-width: 720px;
+    height: 36px;
+    overflow: hidden;
+    font-size: 18px;
+    input{
+      width: 5.5rem;
+      max-width: 550px;
+      border:none;
+      height: 36px;
+      line-height: 36px;
+      border-radius: 5px;
+    }
+    button{
+      width: 1.5rem;
+      max-width: 150px;
+      height: 36px;
+      font-size: 16px;
+      text-align: center;
+      border:1px solid rgb(220,220,220);
+      background-color: transparent;
+      border-radius: 5px;
+      color: rgb(180,180,180);
+    }
+  }
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>群聊</title>
+    <meta name="Keywords" content="">
+    <meta name="Description" content="爱领红包的妹纸不会老#爱领红包的妹纸不会老">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <script>
+        function RemInit(){
+            var dpr, rem, scale;
+            var docEl = window.document.documentElement;
+            var metaEl = window.document.querySelector('meta[name="viewport"]');
+            var psdWidth = 750/100;
+            dpr = window.devicePixelRatio || 1;
+            dpr = 1;
+            rem = docEl.clientWidth * dpr / psdWidth;
+            docEl.style.fontSize = rem +'px';
+            docEl.setAttribute('data-dpr', dpr);
+            scale = 1 / dpr;
+            metaEl.setAttribute('content', 'width=' + dpr * docEl.clientWidth + ',initial-scale=' + scale + ',maximum-scale=' + scale + ', minimum-scale=' + scale + ',user-scalable=no');
+            window.dpr = dpr;
+            window.rem = rem;
+            window.addEventListener('resize',function(){
+                rem = docEl.clientWidth * dpr / psdWidth;
+                docEl.style.fontSize = Math.round(rem) +'px'
+            })
+        }
+        RemInit();
+    </script>
+    <link rel="stylesheet" href="/chat/dist/css/index.min.css">
+</head>
+<body>
+<div class="login" id="LoginView">
+    <section class="send-view view">
+        <div class="input-view">
+            <input id="NickName" type="text" placeholder="Login First">
+            <button id="Login">Login</button>
+        </div>
+    </section>
+</div>
+<div class="chat" id="ChatView">
+    <section id="MsgView" class="msg-view view">
+        <!--<div class="system">-->
+            <!--<span>我加入了</span>-->
+        <!--</div>-->
+        <!--<div class="msg">-->
+            <!--<div class="ico right">-->
+                <!--<div class="img">-->
+
+                <!--</div>-->
+                <!--<div class="nick">-->
+                    <!--小王-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="text right">-->
+                <!--我加入了我加入了我加入了我加入了我加入了我加入了我加入了我加入了我加入了我加入了我加入了-->
+            <!--</div>-->
+
+        <!--</div>-->
+        <!--<div class="msg">-->
+            <!--<div class="ico">-->
+                <!--<div class="img">-->
+
+                <!--</div>-->
+                <!--<div class="nick">-->
+                    <!--小王-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="text">-->
+                <!--我加入了我加入了我加入了我加入了我加入了我加入了我加入了我加入了我加入了我加入了我加入了-->
+            <!--</div>-->
+
+        <!--</div>-->
+
+    </section>
+    <section class="send-view view">
+        <div class="input-view">
+            <input id="MsgText" type="text">
+            <button id="MsgSend">Send</button>
+        </div>
+    </section>
+</div>
+
+
+<script src="/chat/dist/js/index.min.js"></script>
+</body>
+</html>
